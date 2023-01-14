@@ -3,6 +3,6 @@ import { defineConfig } from "cypress";
 export default defineConfig({
   projectId: "dyxe34",
   e2e: {
-    baseUrl: "https://arcgame.netlify.app/"
+    baseUrl: "https://arcgame.netlify.app"
   },
 });
