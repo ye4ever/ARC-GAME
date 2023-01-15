@@ -3,21 +3,31 @@
     padding: 0;
 }
 
-.container{
-    background-image: url('./bg.jpg');
-    width: 450px;
-    height: 550px;
+body {
+    background-image: url('./bg.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.container{
+   
     text-align: center;
     margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 h1{
-
-font-family: sans-serif;
-padding-top: 100px;
-padding-bottom: 70px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
 }
 div{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.container .links  a {
+    display: block
 }
